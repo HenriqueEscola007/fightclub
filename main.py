@@ -15,9 +15,14 @@ else :
     if modo == "facil":
         dano_inimigo = 20
         vida_lutador = 100
+        
+        
     elif modo == "normal":
         dano_inimigo = 30
         vida_lutador = 90
     elif modo == "dificil":
         dano_inimigo = 40
         vida_lutador = 80
+        
+def movimento(acao):
+    return 
